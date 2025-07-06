@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5001  //  If PORT is not defined in the .env fi
 
 app.use(cors({
     origin:["http://localhost:5173",
-    "https://leaf-pad.vercel.app/" ]
+    "https://leaf-pad.vercel.app" ]
 })
 );
 
